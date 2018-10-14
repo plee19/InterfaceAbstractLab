@@ -15,7 +15,7 @@ public class DisplayUtility {
      */
     public void courseOutput(Course course) {
         String str;
-        str = course.getCourseName() + " is a " + course.getCredits() + " credit(s) course with a course number of " +
+        str = course.getCourseName() + " is a " + course.getCredits() + " credit course with a course number of " +
                     course.getCourseNumber() + ".";
         if (course.getPrerequisites() != null) {
             str += " Prerequisites for this course are: " + course.getPrerequisites() + ".";
