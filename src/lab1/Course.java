@@ -106,7 +106,7 @@ public abstract class Course {
 
     /**
      * Private method to set course prerequisites, with IllegalArgumentException if input is incorrect.
-     * @param prerequisites
+     * @param prerequisites String course prerequisites
      */
     private void setPrerequisites(String prerequisites) {
         if(prerequisites == null || prerequisites.length() == 0) {

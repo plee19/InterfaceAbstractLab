@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"lab2","l":"AdvancedJavaCourse"},{"p":"lab2","l":"Course"},{"p":"lab2","l":"DisplayUtility"},{"p":"lab2","l":"ICourse"},{"p":"lab2","l":"IntroJavaCourse"},{"p":"lab2","l":"IntroToProgrammingCourse"},{"p":"lab2","l":"Startup"}]

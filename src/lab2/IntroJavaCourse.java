@@ -1,45 +1,16 @@
 package lab2;
 
 /**
- * Describe responsibilities here.
+ * This class implements ICourse, extends Course and inherits the Course constructor, including prerequisites.
+ * The IntroToJavaCourse's responsibilities are to simply handle its properties in a constructor.
  *
- * @author      your name goes here
+ * @author      plee19
  * @version     1.00
  */
-public class IntroJavaCourse {
-    String courseName;
-    private String courseNumber;
-    private double credits;
-    private String prerequisites;
+public class IntroJavaCourse extends Course implements ICourse {
 
-    public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+    public IntroJavaCourse(String courseName, String courseNumber, double credits, String prerequisites) {
+        super(courseName, courseNumber, credits, prerequisites);
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
-
-    public double getCredits() {
-        return credits;
-    }
-
-    public void setCredits(double credits) {
-        this.credits = credits;
-    }
-
-    public String getPrerequisites() {
-        return prerequisites;
-    }
-
-    public void setPrerequisites(String prerequisites) {
-        this.prerequisites = prerequisites;
-    }
-
-    
 }
